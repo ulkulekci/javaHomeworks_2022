@@ -1,4 +1,4 @@
-package week3.odev2;
+package week3.polymorphismDemo;
 
 public class Main {
 	
