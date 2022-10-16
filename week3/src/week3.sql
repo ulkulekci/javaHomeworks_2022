@@ -35,7 +35,7 @@ from products inner join categories --Product ve Categori tablolarını beraber 
 on categories.category_id = products.category_id
 where Products.unit_price>10;
 
-Select * from Products p inner join order_details od --tablo isminde boşluk olduğu için köşeli parantez içine aldık
+Select * from Products p inner join order_details od 
 on p.product_id= od.product_id;
 
 Select * from Products p left join order_details  od --solda olup sağda olmayanları da getir. Yani üründe olup hiç satışı yok
